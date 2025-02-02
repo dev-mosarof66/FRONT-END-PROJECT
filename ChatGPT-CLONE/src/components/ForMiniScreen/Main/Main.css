@@ -1,0 +1,141 @@
+.container {
+    /* background-color: red; */
+    min-height: 90vh;
+    width: 100%;
+    margin: auto;
+
+}
+
+.container h1 {
+    font-size: 30px;
+    color: white;
+    opacity: 0.857;
+    margin-bottom: 18px;
+
+}
+
+
+.content-container {
+    width: 100%;
+    margin-bottom: 25px;
+    /* background-color: black; */
+}
+
+.content {
+    width: 100%;
+    padding: 5px 18px;
+    border-radius: 15px;
+    background-color: rgba(63, 63, 63, 0.671);
+}
+
+.content input {
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    opacity: .885;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.content input::placeholder {
+    color: white;
+    font-weight: normal;
+    opacity: 0.885;
+}
+
+.content-container .icons-content {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icons-content .left-icon-container {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.icons-content .left-icon-container .file-icon {
+    /* background-color: red; */
+    opacity: 0.7;
+    margin-right: 8px;
+    padding: 4px;
+    transition: all 300ms;
+}
+
+.icons-content .left-icon-container .file-icon:hover {
+    background-color: rgba(0, 0, 0, 0.449);
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+
+.icons-content .left-icon-container .web-icon {
+    /* background-color: red; */
+    opacity: 0.7;
+    margin-right: 8px;
+    padding: 4px;
+    transition: all 300ms;
+}
+
+.icons-content .left-icon-container .web-icon:hover {
+    background-color: rgba(14, 14, 14, 0.449);
+    cursor: pointer;
+    border-radius: 6px;
+
+}
+
+.right-icon-container {
+    display: flex;
+    padding-bottom: 6px;
+
+}
+
+.right-icon-container .mic-icon {
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+    padding: 7px;
+    border-radius: 100px;
+    transition: all 300ms;
+}
+
+.mic-icon img {
+    width: 19px;
+}
+
+.right-icon-container .mic-icon:hover {
+    background-color: rgba(235, 229, 229, 0.858);
+}
+
+.right-icon-container .arrow-icon {
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+    padding: 8px;
+    border-radius: 100px;
+    transition: all 300ms;
+}
+
+.shortcut-container {
+    /* background-color: red; */
+}
+
+.shortcut-container .shortcut-icon {
+    border: 1px solid rgba(128, 128, 128, 0.605);
+    padding: 8px 9px;
+    border-radius: 15px;
+}
+
+.shortcut-icon p {
+    margin: 0px 5px;
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    color: white;
+    opacity: 0.885;
+}
